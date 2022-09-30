@@ -1,0 +1,19 @@
+body {
+   background-color: #fcffb2;
+}
+#titulo {
+   color: #b6e388;
+   font-size: 40px;
+   text-align: center;
+   text-decoration: underline;
+}
+h2 {
+   color: #c7f2a4;
+}
+.parrafo {
+   text-align: justify;
+}
+img {
+   width: 400px;
+   height: 200px;
+}
