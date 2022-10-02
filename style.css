@@ -1,6 +1,16 @@
 body {
    background-color: #fcffb2;
 }
+nav {
+   padding: 40px;
+   text-align: right;
+}
+a {
+   text-decoration: none;
+   color: #b6e388;
+   font-weight: 800;
+   margin-right: 20px;
+}
 #titulo {
    color: #b6e388;
    font-size: 40px;
@@ -16,4 +26,25 @@ h2 {
 img {
    width: 400px;
    height: 200px;
+}
+footer {
+   padding: 40px;
+   text-align: center;
+}
+footer a {
+   margin-right: 20px;
+}
+.social {
+   width: 20px;
+   height: 20px;
+}
+
+.wp {
+   position: fixed;
+   bottom: 20px;
+   right: 20px;
+}
+.wp img {
+   width: 40px;
+   height: 40px;
 }
