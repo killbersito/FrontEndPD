@@ -1,6 +1,13 @@
 body {
    background-color: #fcffb2;
 }
+.logo {
+   display: flex;
+   flex: wrap;
+   justify-content: space-around;
+   align-items: center;
+   flex-wrap: wrap;
+}
 nav {
    padding: 40px;
    text-align: right;
@@ -30,6 +37,10 @@ img {
 footer {
    padding: 40px;
    text-align: center;
+   display: flex;
+   align-items: flex-end;
+   justify-content: space-around;
+   flex-wrap: wrap;
 }
 footer a {
    margin-right: 20px;
