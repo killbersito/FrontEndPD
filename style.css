@@ -1,7 +1,9 @@
 body {
    background-color: #fcffb2;
+   font-family: "Poppins", sans-serif;
 }
 .logo {
+   width: 100vw;
    display: flex;
    flex: wrap;
    justify-content: space-around;
@@ -9,7 +11,7 @@ body {
    flex-wrap: wrap;
 }
 nav {
-   padding: 40px;
+   padding: 1rem;
    text-align: right;
 }
 a {
@@ -18,11 +20,27 @@ a {
    font-weight: 800;
    margin-right: 20px;
 }
+@font-face {
+   font-family: "Roboto-Bold";
+   src: url("/Roboto-Bold.ttf");
+}
 #titulo {
    color: #b6e388;
-   font-size: 40px;
+   font-size: 2em;
    text-align: center;
    text-decoration: underline;
+   font-family: "Roboto-bold";
+}
+#home {
+   max-width: 100vw;
+   flex-direction: column;
+   display: flex;
+   justify-content: center;
+}
+#youtube {
+   align-self: center;
+   display: flex;
+   justify-content: center;
 }
 h2 {
    color: #c7f2a4;
@@ -31,8 +49,8 @@ h2 {
    text-align: justify;
 }
 img {
-   width: 400px;
-   height: 200px;
+   width: 25rem;
+   align-self: center;
 }
 footer {
    padding: 40px;
